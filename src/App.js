@@ -6,6 +6,7 @@ import './App.css'
 import { Typography  } from "@material-ui/core";
 
 const APP = () => {
+  document.title="The News Glory"
   const [alanInstance, setAlanInstance] = useState();
   const [newsArticles, setNewsArticles] = useState([]);
   const [activeArticle, setActiveArticle] = useState(0);
